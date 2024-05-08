@@ -4,6 +4,377 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>online Zoo</title>
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <div class="site-header__inner">
+          <a href="./index.html">
+            <img class="site-header__logo" src="./images/logo.png" alt="logo" />
+          </a>
+
+          <button class="site-header__burger js-menu"></button>
+
+          <nav class="sitenav">
+            <ul class="sitenav__links">
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">about</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">MAP</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">zoos</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">contact us</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">design</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">My account</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="site-header__box">
+            <button class="site-header__search"></button>
+            <img src="./images/login person.png" alt="login" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="site-hero">
+        <div class="container">
+          <div class="site-hero__inner">
+            <img
+              class="site-hero__panda"
+              src="./images/pandadc.png"
+              alt="panda"
+            />
+            <div>
+              <div class="site-hero__box">
+                <h1 class="site-hero__title">
+                  Watch your favorite
+                  <span class="site-hero__span">animals online</span>
+                </h1>
+                <p class="site-hero__paragrph">
+                  Observe different animals from around the world online in live
+                  time. Help vulunteers to take a good care of animals, donate
+                  to your favorite ones.
+                </p>
+              </div>
+              <div class="site-hero__buttons">
+                <button class="site-hero__watch">Watch now</button>
+                <button class="site-hero__donate">Donat</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="site-works">
+        <div class="container">
+          <div class="site-works__inner">
+            <h2 class="site-works__title">How it works</h2>
+
+            <div class="site-works__cards">
+              <div class="site-works__card card">
+                <div class="card__image-wr">
+                  <img src="./images/binocular.png" alt="binocular" />
+                </div>
+                <p class="card__desc">
+                  Keep an eye on your favourite animals online
+                </p>
+              </div>
+              <div class="site-works__card card">
+                <div class="card__image-wr">
+                  <img src="./images/heart.png" alt="heart" />
+                </div>
+                <p class="card__desc">Become a part of the communtity</p>
+              </div>
+              <div class="site-works__card card">
+                <div class="card__image-wr">
+                  <img src="./images/impuls.png" alt="hand" />
+                </div>
+                <p class="card__desc">Support animals with the donations</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="site-forest"></section>
+
+      <section class="site-zoo">
+        <div class="container">
+          <div class="site-zoo__inner">
+            <h3 class="site-zoo__title">Pets in zoo</h3>
+            <div class="site-zoo__wrapper">
+              <div class="site-zoo__box">
+                <div class="site-zoo__text">
+                  <div class="site-zoo__control">
+                    <h4 class="site-zoo__animal-name">Pandas</h4>
+                    <p class="site-zoo__paragrph">
+                      Shenshuping Gengda Panda Center
+                    </p>
+                  </div>
+                </div>
+
+                <div class="site-zoo__text panda">
+                  <div class="site-zoo__control monkay">
+                    <h4 class="site-zoo__animal-name">Pandas</h4>
+                    <p class="site-zoo__paragrph">
+                      Shenshuping Gengda Panda Center
+                    </p>
+                  </div>
+                </div>
+
+                <div class="site-zoo__text engles">
+                  <div class="site-zoo__control monkay">
+                    <h4 class="site-zoo__animal-name">Eagles</h4>
+                    <p class="site-zoo__paragrph">Catalina Island</p>
+                  </div>
+                </div>
+
+                <div class="site-zoo__text gorillas-text">
+                  <div class="site-zoo__control gorillas">
+                    <h4 class="site-zoo__animal-name">Gorillas</h4>
+                    <p class="site-zoo__paragrph">GRACE gorillas</p>
+                  </div>
+                </div>
+
+                <div class="site-zoo__text aligator-text">
+                  <div class="site-zoo__control aligator">
+                    <h4 class="site-zoo__animal-name">Aligators</h4>
+                    <p class="site-zoo__paragrph">
+                      St. Augustine's Alligator Farm Zoological Park
+                    </p>
+                  </div>
+                </div>
+
+                <div class="site-zoo__text elephant-text">
+                  <div class="site-zoo__control elephant">
+                    <h4 class="site-zoo__animal-name">Elephants</h4>
+                    <p class="site-zoo__paragrph">Tembe Elephant Park</p>
+                  </div>
+                </div>
+
+                <div class="site-zoo__text lemurs-text">
+                  <div class="site-zoo__control lemurs">
+                    <h4 class="site-zoo__animal-name">Lemurs</h4>
+                    <p class="site-zoo__paragrph">Madagascar</p>
+                  </div>
+                </div>
+              </div>
+
+              <button class="site-zoo__btn">
+                <span class="site-zoo__span"></span> Choose your Favorite
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="payment">
+        <div class="container">
+          <div class="payment__inner">
+            <div class="payment__top">
+              <h3 class="payment__title">Pay and feed</h3>
+              <button class="payment__btn-top">
+                <span> Donate to volunteers </span>
+              </button>
+            </div>
+            <div class="payment__cards">
+              <div class="payment__card">
+                <div class="payment__card-img">
+                  <img src="./images/payments-hant.png" alt="icon" />
+                </div>
+                <p class="payment__card-desc">
+                  You donate to your favourite animals
+                </p>
+              </div>
+              <div class="payment__card">
+                <div class="payment__card-img">
+                  <img src="./images/payments__icon-apple.png" alt="icon" />
+                </div>
+                <p class="payment__card-desc">
+                  Zoo Keepers feed animals with their favourite food
+                </p>
+              </div>
+              <div class="payment__card">
+                <div class="payment__card-img">
+                  <img src="./images/payments-abror.png" alt="icon" />
+                </div>
+                <p class="payment__card-desc">Animals are healthy and happy</p>
+              </div>
+              <button class="paymnets__card-bottom-btn">
+                Donate to volunteers
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTMONILAS -->
+      <section class="testimonials">
+      <div class="container">
+        <div class="testimonials__inner">
+          <div class="testimonial__inner-top">
+            <h2 class="testimonials__title-top">
+              Testimonials
+            </h2>
+
+            <button>
+              <img src="./images/sms.png" alt="icon">
+              Leave feedback
+            </button>
+          </div>
+
+          <div class="testimonials__wrapper">
+            <div class="testimonials__card">
+              <div class="testimonnials__card-head">
+                <data>20 Decepmer 2020</data>
+                <p>
+                  Awesome place to observe my favourite aligators at Florida, the quality of the video is great.
+                </p>
+              </div>
+              <div class="testimonnials__card-body">
+                <img src="./images/adma spain.png" alt="image testiomonials">
+                <span>Adam, Spain</span>
+              </div>
+            </div>
+
+            <div class="testimonials__card">
+              <div class="testimonnials__card-head">
+                <data>20 Decepmer 2020</data>
+                <p>
+                  Awesome place to observe my favourite aligators at Florida, the quality of the video is great.
+                </p>
+              </div>
+              <div class="testimonnials__card-body">
+                <img src="./images/two spain man.png" alt="image testiomonials">
+                <span>Adam, Spain</span>
+              </div>
+            </div>
+
+            <div class="testimonials__card">
+              <div class="testimonnials__card-head">
+                <data>20 Decepmer 2020</data>
+                <p>
+                  Awesome place to observe my favourite aligators at Florida, the quality of the video is great.
+                </p>
+              </div>
+              <div class="testimonnials__card-body">
+                <img src="./images/spain woman.png" alt="image testiomonials">
+                <span>Adam, Spain</span>
+              </div>
+            </div>
+
+            <button class="card-bottom-btn">
+              <img src="./images/sms.png" alt="icon">
+              Leave feedback
+            </button>
+
+
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+      </section>
+
+    <!-- ANIMALS -->
+    <section class="animals">
+      <div class="container">
+        <div class="animals__inner">
+          <h3 class="animals__title">
+            Look at this beautiful animals
+          </h3>
+
+          <div class="animals__wrapper">
+            <div class="animals__card">
+              <img src="./images/animals panda.png" alt="panda" class="animals__card-img">
+              <p class="animals__card-desc">pandas</p>
+            </div>
+            <div class="animals__card">
+              <img src="./images/animals gorilla.png" alt="gorilla" class="animals__card-img">
+              <p class="animals__card-desc">gorillas</p>
+            </div>
+            <div class="animals__card">
+              <img src="./images/animals e.png" alt="eagles" class="animals__card-img">
+              <p class="animals__card-desc">eagles</p>
+            </div>
+            <div class="animals__card">
+              <img src="./images/aimals aligator.png" alt="aligators" class="animals__card-img">
+              <p class="animals__card-desc">aligators</p>
+            </div>
+            <div class="animals__card">
+              <img src="./images/animals elphan.png" alt="fil" class="animals__card-img">
+              <p class="animals__card-desc">elephants</p>
+            </div>
+            <div class="animals__card">
+              <img src="./images/animal lemur.png" alt="lemurs" class="animals__card-img">
+              <p class="animals__card-desc">lemurs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    </main>
+
+      <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__main-content">
+          <a href="./index.html" class="footer__logo">
+            <img src="./images/logo.png" alt="footer logo">
+          </a>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a href="./index.html" class="footer__list-link">
+                about
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="./index.html" class="footer__list-link">
+                map
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="./index.html" class="footer__list-link">
+                zoos
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="./index.html" class="footer__list-link">
+                contact us
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="./index.html" class="footer__list-link">
+                design
+              </a>
+            </li>
+          </ul>
+        </div>
+        <ul class="footer__authors">
+          <li>
+            Design by Lemeshko Kateryna
+          </li>
+          <li>
+            ©RSSchool and ©Yem Digital 2021
+          </li>
+        </ul>
+      </div>
+    </div>
+      </footer>
+
+    <script src="/js/main.js"></script>
+  </body>
 </html>

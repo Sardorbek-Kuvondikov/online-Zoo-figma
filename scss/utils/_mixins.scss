@@ -1,0 +1,23 @@
+@mixin flex-box($flex, $center, $space-between, $column, $wrap) {
+  display: $flex;
+  align-items: $center;
+  justify-content: $space-between;
+  flex-direction: $column;
+  flex-wrap: $wrap;
+}
+
+@mixin bg-img($no-repeat) {
+  background-repeat: $no-repeat;
+  background-size: 100%;
+}
+
+@mixin link($none, $fontsize) {
+  text-decoration: $none;
+  font-size: $fontsize;
+}
+
+@mixin media($min-width) {
+  @media only screen and (min-width: $min-width) {
+    @content;
+  }
+}
